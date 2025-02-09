@@ -1,7 +1,7 @@
 <?php
 
 // Configuration de l'API Mistral
-define('MISTRAL_API_KEY', getenv(' YOU API KEY') ?: '');
+define('MISTRAL_API_KEY', getenv('MISTRAL_API_KEY') ?: ' YOUR API KEY ');
 define('MISTRAL_ENDPOINT', 'https://api.mistral.ai/v1/chat/completions');
 define('MISTRAL_MODEL', 'pixtral-12b-2409');
 define('CHATROOM_DIR', '../CHATROOM');
